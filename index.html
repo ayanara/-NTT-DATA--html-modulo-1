@@ -7,6 +7,7 @@
   <title>Desenvolvimento Web</title>
 </head>
 <body>
+
   <header>
     <o>
       <li>Bootcamp</li>
@@ -15,6 +16,15 @@
     </o>
     <hr>
   </header>
+
+  <fieldset>
+    <legend>Inscrição</legend>
+    <form>
+      <label>Nome:</label><input type="text" />
+      <label>E-mail:</label><input type="email" />
+    </form>
+
+  </fieldset>
   <main>
     <div class="main_01">
       <h1>Bootcamp: <small>NTT DATA Diversidade em Tech</small></h1>
@@ -58,16 +68,47 @@
 
         <blockquote cite="https://www.w3schools.com/tags/tag_font.asp">para saber mais sobre a Tag &#60;font&#62;, acesse:</blockquote>
       </div>
+
+      <div class="tag_midias">
+        <h1> Tag de mídias</h1>
+        <p> As tags de mídias são IMG, AUDIO, VIDEO TRACK e IFRAME</p>
+
+        <h2> Tag IMG</h2>
+        <H2> Tag IFRAME</H2>
+      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/t8NqwxeGVyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+
+        <h2> Tag de Aúdio </h2>
+      
+        <audio controls>
+          <source src="musica.mp3" />
+          Não tem audio
+        </audio>
+
+        <h2> Tag de Vídeos </h2>
+
+        <video controls>
+          <source src="clip.mp4" />
+          <track src="legenda.vtt" kind="captions" srclang="en" />
+          Não tem video, é só um teste
+        </video>
+
+        <h2> Tag Track </h2>
+        <p> Ela é auxiliar da Tag Video, ela é tipo uma legenda</p>
+      </div>
   </main>
+  <br>
+  <fieldset>
+    <legend>Contato</legend>
   <footer>
-    <hr>
     <h5>Contato</h5>
     <ul>
       <li><a href="https://www.linkedin.com/in/ayanara/" target="_blank" >linkedin</a></li>
       <li><a href="https://github.com/ayanara"target="_blank">github</a></li>
     </ul>
     
-  </footer>
-  
+  </footer></fieldset>
+
 </body>
 </html>
