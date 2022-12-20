@@ -1,0 +1,15 @@
+table thead th{
+  background-color: black;
+  color: aliceblue;
+}
+
+table tfoot td{
+  background-color: rgb(194, 189, 189);
+}
+table tr:nth-child(even){
+  background-color: aqua;
+}
+
+table tr:hover td{
+  background-color: rgb(59, 59, 59);
+}

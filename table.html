@@ -6,10 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Criando Tabelas</title>
-
+    <link rel="stylesheet" type="text/css" href="/css/table.css" />
+    <title>Criando Tabelas</title>
 </head>
 <body>
+
+  <h2>Introdução ao HTML - Usando tabelas em HTML</h2>
+  <p>Quando se tem um conjunto de dados e precisa-se apresentá-los ordenadamente,
+     uma boa maneira de fazê-lo é usando as tabelas. Elas são basicamente compostas
+     de linhas <mark>(tr.../tr) e colunas (td.../td)</mark> cruzadas entre si. 
+     Mas os cabeçalhos da tabela devem ser apresentados não em “td”, mas em “th”;
+     caso não, alguns códigos ficam comprometidos a não funcionarem. A tag básica das
+     tabelas é a <table></table>, ou seja, toda a informação da tabela deve estar contida 
+     entre os delimitadores dessa tag.</p>
+
+     <table summary="Tabela teste" width="300" align="center" cellspacing="0">
+        <thead>
+          <tr>
+              <th title="Nome completo">Nome</th>
+              <th>Idade</th>
+              <th>telefone</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>Ayanara</td>
+              <td>31</td>
+              <td>31xxxx</td>
+          </tr>
+          <tr>
+              <td>Paulo</td>
+              <td>32</td>
+              <td>31xxxx</td>
+          </tr>
+          <tr>
+              <td>Guilherme</td>
+              <td>21</td>
+              <td>31xxxx</td>
+          </tr>
+          <tr>
+              <td>Gabriel</td>
+              <td>20</td>
+              <td>31xxxx</td>
+          </tr>
+          <tr>
+              <td>João</td>
+              <td>21</td>
+              <td>31xxxx</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td>
+            <td>5</td>
+            <td>5</td>
+          </tr>
+        </tfoot>
+     </table>
+
+
   
 </body>
 </html>
